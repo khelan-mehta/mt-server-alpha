@@ -6,14 +6,14 @@
             "use": "@vercel/node"
         }
     ],
-    "routes": [
+    "routes":[
         {
-            "src": "/(.*)",
-            "dest": "src/main.ts",
-            "methods": [
+            "src":"/(.*)",
+            "dest":"src/main.ts",
+            "methods":[
                 "GET",
-                "POST",
                 "PUT",
+                "POST",
                 "DELETE"
             ]
         }
